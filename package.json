@@ -1,0 +1,32 @@
+{
+  "name": "passport-oauth2-middleware",
+  "version": "1.0.0",
+  "description": "Passport OAuth2 middleware for Express.",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/artema/passport-oauth2-middleware.git"
+  },
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "passport",
+    "express",
+    "middleware"
+  ],
+  "author": "Artem Abashev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artema/passport-oauth2-middleware/issues"
+  },
+  "homepage": "https://github.com/artema/passport-oauth2-middleware",
+  "dependencies": {
+    "debug": "^2.1.0",
+    "moment": "^2.8.4",
+    "passport-strategy": "^1.0.0",
+    "querystring": "^0.2.0"
+  }
+}
