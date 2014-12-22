@@ -3,6 +3,8 @@ Passport.js OAuth2 Middleware
 
 Passport.js strategy that supports automatic **OAuth2 refresh tokens** and **OAuth2 password workflow**.
 
+    npm install passport-oauth2-middleware
+
 Example
 ==========================
 
