@@ -5,6 +5,8 @@ Passport.js strategy that supports automatic **OAuth2 refresh tokens** and **OAu
 
     npm install passport-oauth2-middleware
 
+[![NPM](https://nodei.co/npm/passport-oauth2-middleware.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/passport-oauth2-middleware/)
+
 Example
 ==========================
 
@@ -22,8 +24,8 @@ Example
       });
 
       passport.use('main', refreshStrategy);  //Main authorization strategy that authenticates
-                                              //user with store OAuth access token
-                                              //and performs a tokne refresh when needed
+                                              //user with stored OAuth access token
+                                              //and performs a token refresh if needed
 
       var oauthStartegy = new OAuth2Strategy({
         authorizationURL: 'https://authserver/oauth2/auth',
