@@ -7,8 +7,7 @@ Passport.js strategy that supports automatic **OAuth2 refresh tokens** and **OAu
 
     npm install passport-oauth2-middleware
 
-Example (see this [blog post](http://abashev.com/oauth2-refresh-tokens-in-passport-js/
-))
+Example (see this [blog post](http://abashev.com/oauth2-refresh-tokens-in-passport-js/))
 ==========================
 
     var OAuth2Strategy = require('passport-oauth2'),
