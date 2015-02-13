@@ -1,6 +1,6 @@
 {
   "name": "passport-oauth2-middleware",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Passport.js strategy that supports automatic OAuth2 refresh tokens and OAuth2 password workflow.",
   "main": "./lib",
   "scripts": {
