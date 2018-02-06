@@ -4,12 +4,12 @@ Passport.js OAuth2 Middleware
 [![NPM](https://nodei.co/npm/passport-oauth2-middleware.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/passport-oauth2-middleware/)
 
 Passport.js strategy that supports automatic **OAuth2 refresh tokens** and **OAuth2 password workflow**.
-
-    npm install passport-oauth2-middleware
-
+```bash
+npm install passport-oauth2-middleware
+```
 Example (see this [blog post](http://abashev.com/oauth2-refresh-tokens-in-passport-js/))
 ==========================
-
+```js
     var OAuth2Strategy = require('passport-oauth2'),
         LocalStrategy = require('passport-local').Strategy,
         OAuth2RefreshTokenStrategy = require('passport-oauth2-middleware').Strategy,
@@ -109,3 +109,4 @@ Example (see this [blog post](http://abashev.com/oauth2-refresh-tokens-in-passpo
         res.render('profile_page');
       });
     };
+```
